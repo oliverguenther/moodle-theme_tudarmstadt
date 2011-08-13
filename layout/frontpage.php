@@ -51,7 +51,7 @@ echo $OUTPUT->doctype() ?>
 			<div id="clearfix"></div>
 		</div>
 	</div>
-	<div id="page-header-line"></div>
+	<div id="page-header-front-line"></div>
     <div id="page-header" class="clearfix">
 		<div id="page-header-wrapper">
 	        <h1 class="headermain"><?php echo $PAGE->heading ?></h1>
@@ -116,8 +116,8 @@ echo $OUTPUT->doctype() ?>
         </p>
 
         <?php
-        echo $OUTPUT->login_info();
-        echo $OUTPUT->home_link();
+        // echo $OUTPUT->login_info();
+        // echo $OUTPUT->home_link();
         echo $OUTPUT->standard_footer_html();
         ?>
     </div>

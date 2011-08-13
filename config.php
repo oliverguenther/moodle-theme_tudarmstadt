@@ -72,7 +72,7 @@ $THEME->editor_sheets = array('editor');
 // Moodle
 ////////////////////////////////////////////////////
 
-// $THEME->rarrow
+$THEME->rarrow ="|"; 
 
 ////////////////////////////////////////////////////
 // Overrides the right arrow image used throughout Moodle

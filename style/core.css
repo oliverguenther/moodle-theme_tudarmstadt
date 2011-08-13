@@ -15,21 +15,21 @@ html {
 }
 
 body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,input,textarea { 
-    font-family: Helvetica, Arial, sans-serif;
-    color: #2a2513;
+    font-family: Tahoma, Helvetica, Arial, sans-serif;
+    color: #535353;
 	margin: 0px auto;
 }
 
 #wrapper { 
     background: #fff;
     margin: 0% 5%;
-    padding: 20px 20px;
+    padding: 20px 20px 100px 20px;
 	border: 1px solid #E1E1E1;
 	border-top: none;
 }
 
 a { 
-    color: #336699;
+    color: #111;
 }
 
 a:hover { 
@@ -50,16 +50,26 @@ a:hover {
 	height: 100%;
 }
 
+/* No menu on frontpage, so shift line */
+#page-header-front-line {
+	width: 100%;
+	border-top: 14px solid #F5A300;
+	padding-top: 3px;
+	border-bottom: 1px solid #000;
+}
+
+
 #page-header-line {
 	width: 100%;
 	border-top: 14px solid #F5A300;
-	border-bottom: 2px solid #000;
+	padding-top: 3px;
+	border-bottom: 1px solid #000;
 	margin-bottom: 5px;
 }
 #page-header { 
     background: #F5A300; /*url([[pix:theme|header]]) no-repeat;*/
 	height: 212px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 .headermenu {
@@ -107,9 +117,13 @@ a:hover {
 -------------------------*/
 
 .navbar { 
-/*    background: #F5A300;*/
-    padding: 5px;
+	font-weight: bold;
 	margin-bottom: 5px;
+}
+
+/* Arrow has been altered to a pipe (see config.php) */
+.arrow {
+	font-weight: bold;
 }
 
 /* Blocks
@@ -154,9 +168,10 @@ a:hover {
 ----------------------------*/
 
 .headingblock { 
+	font-size: 1.3em;
+    font-weight: bold;
     background: #F5A300;
     color: #fff;
-    font-weight: normal;
     border: none;
     padding: 2px 5px;
 }
