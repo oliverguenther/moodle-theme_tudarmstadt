@@ -104,6 +104,7 @@ a:hover {
 }
 
 #page-content {
+	min-width: 0px;
     float: none;
 }
 
