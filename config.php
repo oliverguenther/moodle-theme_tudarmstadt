@@ -1,5 +1,14 @@
 <?php
 
+
+/**
+ * Main options for the tudarmstadt theme
+ *
+ * @package   theme_tudarmstadt
+ * @copyright 2011 onwards Oliver Günther
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
 $THEME->name = 'tudarmstadt';
 
 ////////////////////////////////////////////////////
@@ -43,7 +52,7 @@ $THEME->editor_sheets = array('editor');
 // body of the editor.
 ////////////////////////////////////////////////////
 
-// $THEME->csspostprocess
+$THEME->csspostprocess = 'tudarmstadt_process_css';
 
 ////////////////////////////////////////////////////
 // Allows the user to provide the name of a function

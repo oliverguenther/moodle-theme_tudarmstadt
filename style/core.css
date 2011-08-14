@@ -47,13 +47,13 @@ a:hover {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	width: 100%;
-	height: 100%;
+/*	height: 100%;*/
 }
 
 /* No menu on frontpage, so shift line */
 #page-header-front-line {
 	width: 100%;
-	border-top: 14px solid #F5A300;
+	border-top: 14px solid [[setting:accentcolor]];
 	padding-top: 3px;
 	border-bottom: 1px solid #000;
 }
@@ -61,13 +61,13 @@ a:hover {
 
 #page-header-line {
 	width: 100%;
-	border-top: 14px solid #F5A300;
+	border-top: 14px solid [[setting:accentcolor]];
 	padding-top: 3px;
 	border-bottom: 1px solid #000;
 	margin-bottom: 5px;
 }
 #page-header { 
-    background: #F5A300; /*url([[pix:theme|header]]) no-repeat;*/
+    background: [[setting:accentcolor]]; /*url([[pix:theme|header]]) no-repeat;*/
 	height: 120px;
     margin-bottom: 15px;
 }
@@ -134,12 +134,12 @@ a:hover {
 }
 
 .block .header { 
-    background: #F5A300;
+    background: [[setting:accentcolor]];
     padding-left: 5px;
 }
 
 .block .title { 
-    background: #F5A300;
+    background: [[setting:accentcolor]];
     padding-left: 5px;
 }
 
@@ -156,7 +156,7 @@ a:hover {
 
 .block .content { 
     background: #FAFAFA;
-    border: 1px solid #F5A300;
+    border: 1px solid [[setting:accentcolor]];
 }
 
 .block .minicalendar td,
@@ -170,7 +170,7 @@ a:hover {
 .headingblock { 
 	font-size: 1.3em;
     font-weight: bold;
-    background: #F5A300;
+    background: [[setting:accentcolor]];
     color: #fff;
     border: none;
     padding: 2px 5px;
@@ -182,7 +182,7 @@ a:hover {
 }
 
 .course-content .current {
-    background: #F5A300;
+    background: [[setting:accentcolor]];
 }
 
 .course-content .current .left {
