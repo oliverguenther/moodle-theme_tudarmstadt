@@ -178,11 +178,11 @@ a:hover {
 
 .course-content .main {
     border: 1px solid #eee;
-    background: #eee;
+    background: #FAFAFA;
 }
 
 .course-content .current {
-    background: #9ca7b4;
+    background: #F5A300;
 }
 
 .course-content .current .left {

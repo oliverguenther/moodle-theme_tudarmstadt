@@ -61,14 +61,15 @@ echo $OUTPUT->doctype() ?>
 			<?php } ?>
 
 			<?php } ?>
-	<div id="page-header" class="clearfix">
+	<!-- Uncomment to include header -->
+	<!-- <div id="page-header" class="clearfix">
 		<h1 class="headermain"><?php echo $PAGE->heading ?></h1>
 		<div id="logo">
 			<a title="Zur Startseite" href="http://www.tu-darmstadt.de">
 				<img alt="Logo der TU Darmstadt" src="https://moodle.tu-darmstadt.de/theme/tud_theme_orange/tu_darmstadt_web.png">
 			</a>
 		</div>
-	</div>
+	</div> -->
 <!-- END OF HEADER -->
 
 <div id="page-content-wrapper">
