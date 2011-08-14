@@ -68,7 +68,7 @@ a:hover {
 }
 #page-header { 
     background: #F5A300; /*url([[pix:theme|header]]) no-repeat;*/
-	height: 212px;
+	height: 120px;
     margin-bottom: 15px;
 }
 
@@ -88,7 +88,7 @@ a:hover {
     float: right;
     left: 20px;
     position: relative;
-    top: 80px;
+    top: 20px;
 }
 
 .has_custom_menu #page-header {
@@ -100,7 +100,7 @@ a:hover {
 	color: #FFF;
 	font-size: 200%;
     font-weight: bold;
-    margin: 2em 0.5em 0.75em;
+    margin: 1em 0.5em 0.75em;
 }
 
 #page-content {
