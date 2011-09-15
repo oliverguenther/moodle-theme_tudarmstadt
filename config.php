@@ -81,7 +81,7 @@ $THEME->csspostprocess = 'tudarmstadt_process_css';
 // Moodle
 ////////////////////////////////////////////////////
 
-$THEME->rarrow ="|"; 
+$THEME->rarrow =">"; 
 
 ////////////////////////////////////////////////////
 // Overrides the right arrow image used throughout Moodle

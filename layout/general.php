@@ -51,26 +51,16 @@ echo $OUTPUT->doctype() ?>
 	<div id="page-header-line"></div>
 	<?php if ($hascustommenu) { ?>
 		<div id="custommenu"><?php echo $custommenu; ?></div>
-		<?php } ?>
+	<?php } ?>
 
-		<?php if ($hasnavbar) { ?>
-			<div class="navbar clearfix">
-				<div class="breadcrumb"><?php echo $OUTPUT->navbar(); ?></div>
-				<div class="navbutton"> <?php echo $PAGE->button; ?></div>
-			</div>
-			<?php } ?>
-
-			<?php } ?>
-	<!-- Uncomment to include header -->
-	<!-- <div id="page-header" class="clearfix">
-		<h1 class="headermain"><?php echo $PAGE->heading ?></h1>
-		<div id="logo">
-			<a title="Zur Startseite" href="http://www.tu-darmstadt.de">
-				<img alt="Logo der TU Darmstadt" src="https://moodle.tu-darmstadt.de/theme/tud_theme_orange/tu_darmstadt_web.png">
-			</a>
+	<?php if ($hasnavbar) { ?>
+		<div class="navbar clearfix">
+			<div class="breadcrumb"><?php echo $OUTPUT->navbar(); ?></div>
+			<div class="navbutton"> <?php echo $PAGE->button; ?></div>
 		</div>
-	</div> -->
-<!-- END OF HEADER -->
+	<?php } ?>
+
+<?php } ?>
 
 <div id="page-content-wrapper">
 	<div id="page-content">
@@ -118,7 +108,7 @@ echo $OUTPUT->doctype() ?>
 		echo $OUTPUT->standard_footer_html();
 		?>
 	</div>
-	<?php } ?>
+<?php } ?>
 </div>
 <?php echo $OUTPUT->standard_end_of_body_html() ?>
 </body>

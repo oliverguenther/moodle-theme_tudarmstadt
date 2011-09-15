@@ -38,7 +38,6 @@ echo $OUTPUT->doctype() ?>
 	<div id="wrapper" class="clearfix">
 
 <!-- START OF HEADER -->
-	
 	<div id="page-header-topnav">
 		<div class="headermenu">
 				<?php

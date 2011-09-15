@@ -156,6 +156,7 @@ a:hover {
 }
 
 .block .content { 
+	overflow: hidden; /* cut off text that is larger */
     background: #FAFAFA;
     border: 1px solid [[setting:accentcolor]];
 }
