@@ -36,29 +36,31 @@ echo $OUTPUT->doctype() ?>
 	<div id="wrapper" class="clearfix">
 <?php if ($hasheading || $hasnavbar) { ?>
 
-	<div id="page-header-topnav">
-		<div class="headermenu">
-				<?php
-			if (!empty($PAGE->layout_options['langmenu'])) {
-				echo $OUTPUT->lang_menu();
-			}
-			echo $PAGE->headingmenu;
-			echo $OUTPUT->login_info()
-				?>
-			<div id="clearfix"></div>
+	<div id="page-header">
+		<div id="page-header-topnav">
+			<div class="headermenu">
+					<?php
+				if (!empty($PAGE->layout_options['langmenu'])) {
+					echo $OUTPUT->lang_menu();
+				}
+				echo $PAGE->headingmenu;
+				echo $OUTPUT->login_info()
+					?>
+				<div id="clearfix"></div>
+			</div>
 		</div>
-	</div>
-	<div id="page-header-line"></div>
-	<?php if ($hascustommenu) { ?>
-		<div id="custommenu"><?php echo $custommenu; ?></div>
-	<?php } ?>
+		<div id="page-header-line"></div>
+		<?php if ($hascustommenu) { ?>
+			<div id="custommenu"><?php echo $custommenu; ?></div>
+		<?php } ?>
 
-	<?php if ($hasnavbar) { ?>
-		<div class="navbar clearfix">
-			<div class="breadcrumb"><?php echo $OUTPUT->navbar(); ?></div>
-			<div class="navbutton"> <?php echo $PAGE->button; ?></div>
-		</div>
-	<?php } ?>
+		<?php if ($hasnavbar) { ?>
+			<div class="navbar clearfix">
+				<div class="breadcrumb"><?php echo $OUTPUT->navbar(); ?></div>
+				<div class="navbutton"> <?php echo $PAGE->button; ?></div>
+			</div>
+		<?php } ?>
+	</div>
 
 <?php } ?>
 
