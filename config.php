@@ -30,7 +30,7 @@ $THEME->parents = array('canvas','base');
 ////////////////////////////////////////////////////
 
 
-$THEME->sheets = array('core');
+$THEME->sheets = array('core', 'print');
 
 ////////////////////////////////////////////////////
 // Name of the stylesheet(s) you've including in
