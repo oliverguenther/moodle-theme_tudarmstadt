@@ -56,7 +56,7 @@ echo $OUTPUT->doctype() ?>
 	        <h1 class="headermain"><?php echo $PAGE->heading ?></h1>
 			<div id="logo">
             	<a title="Zur Startseite" href="http://www.tu-darmstadt.de">
-					<img alt="Logo der TU Darmstadt" src="https://moodle.tu-darmstadt.de/theme/tud_theme_orange/tu_darmstadt_web.png" />
+					<img alt="Logo der TU Darmstadt" src="https://moodle.tu-darmstadt.de/theme/tudarmstadt/pix/tu_darmstadt_web.png" />
 				</a>
              </div>
 			<div class="clearfix"></div>	
